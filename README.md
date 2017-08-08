@@ -50,7 +50,6 @@ For Windows users wanting to use the script, you'll probably need the [Linux Sub
 
 This directory is built using [Create React App](https://github.com/facebookincubator/create-react-app), so you can look for more info there if you run into trouble.
 
-To deploy the directory, run `yarn build` or `npm run build`. Then commit the changes to Github.
 
 ### License
 
