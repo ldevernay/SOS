@@ -1,12 +1,12 @@
 /*
-  OPEN SOURCE FOR GOOD DIRECTORY SAMPLE CONFIG FILE 
+  OPEN SOURCE FOR GOOD DIRECTORY SAMPLE CONFIG FILE
 
   title: Displayed at the top and as the webpage title
   demoVideo: the YouTube video address
   liveDemo: the address of the project's homepage
-  description: an ES6 template string that contains GitHub-flavored Markdown. 
+  description: an ES6 template string that contains GitHub-flavored Markdown.
                Keep this relatively short - a paragraph tops
-  body: an ES6 template string with GitHub-flavored Markdown. 
+  body: an ES6 template string with GitHub-flavored Markdown.
         Please include the open source license, with the freeCodeCamp copyright at the end.
 
   If the 'liveDemo' or the 'demoVideo' aren't yet available, you can exclued them.

@@ -1,32 +1,8 @@
 [
   {
-    "name": "conference-for-good",
+    "name": "projet_siteMaraichage",
     "icon": "fa-users",
-    "tags": ["conference management", "conference speakers", "speaker portal"],
-    "status": "dev"
-  },
-  {
-    "name": "league-for-good",
-    "icon": "fa-futbol-o",
-    "tags": ["league management", "sports", "league"],
-    "status": "dev"
-  },
-  {
-    "name": "mail-for-good",
-    "icon": "fa-envelope-o",
-    "tags": ["email", "marketing", "email campaigns"],
-    "status": "prod"
-  },
-  {
-    "name": "meeting-for-good",
-    "icon": "fa-globe",
-    "tags": ["meeting", "coordination", "scheduler", "calendar", "calendar service", "google calendar"],
-    "status": "prod"
-  },
-  {
-    "name": "pantry-for-good",
-    "icon": "fa-cutlery",
-    "tags": ["food-banks", "inventory", "inventory management", "charity", "donors"],
+    "tags": ["vegetables", "local markets"],
     "status": "prod"
   }
 ]
