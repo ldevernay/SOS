@@ -1,12 +1,12 @@
-# Open Source for Good Directory
+# Simplon Open Source Directory
 
-A directory for freeCodeCamp's Open Source for Good Apps - Solutions for Nonprofits.
+A directory based on freeCodeCamp's Open Source for Good Apps - Solutions for Nonprofits.
 
 ## Instructions for adding a Non-Profit Project
 
-There are two steps to add an Open Source for Good Project to the directory:
+There are two steps to add an Open Source Project to the directory:
 
-1. Add the file `.osfg-dir-config.js` to the **root of the Project**. 
+1. Add the file `.osfg-dir-config.js` to the **root of the Project**.
     * This will trigger an automatic build of the Project's page inside the directory.
     * Please **verify** that an **update** by CamperBot to `docs/[project-name]` has occurred in the master branch of the directory.
     * Fields:
@@ -22,7 +22,7 @@ There are two steps to add an Open Source for Good Project to the directory:
 2. Edit the file `repo-list.json` at the root of the directory to include the project.
     * This file will tell the directory app to fetch the corresponding GitHub data and include a card for the project.
     * If you don't yet have permissions to update this repo, please **request the edit** from one of the project's  maintainers.
-    * Instructions for the file: 
+    * Instructions for the file:
       * Please keep this file **alphabetically sorted** by repo name
       * **Everything** should be in **lower case**. This is critical to our search functionality
       * **name:** the GitHub repo's name in lower case (without the preceeding freecodecamp/)
@@ -42,7 +42,7 @@ Open the folder you wish to install the project in using your terminal, and run:
 
 `git clone https://github.com/freeCodeCamp/open-source-for-good-directory`
 
-`cd` into the `open-source-for-good-directory` project that command created, then run `npm i` to install all the project dependencies. 
+`cd` into the `open-source-for-good-directory` project that command created, then run `npm i` to install all the project dependencies.
 
 You'll need symbolic links inside the `public` folder that point to the corresponding `docs/[project-name]` directory. The bash script in the root of this repo. We've created a script to automate this process. Make sure the script is executable by running: `chmod +x .setup-symlinks.sh`. Then run `./.setup-symlinks.sh`.
 

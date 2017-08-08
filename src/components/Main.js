@@ -42,7 +42,7 @@ const Main = ({ isDev, isFetching, repos, search, sortBy, tagFilters }) => {
       return repoA[val] < repoB[val];
     })
     .map(repo => {
-      const repoLink = `https://github.com/freecodecamp/${repo.name}`;
+      const repoLink = `https://github.com/${repo.name}`;
 
       return (
         <Card

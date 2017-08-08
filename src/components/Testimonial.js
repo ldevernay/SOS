@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Currently unused
 const Testimonial = () =>
   (<div>
     <div className='as-seen-on'>

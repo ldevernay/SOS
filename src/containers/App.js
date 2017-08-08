@@ -10,7 +10,6 @@ import {
 } from '../actions';
 import Header from '../components/Header';
 import Title from '../components/Title';
-import Testimonial from '../components/Testimonial';
 import Search from '../components/Search';
 // import SortMenu from '../components/SortMenu';
 import Main from '../components/Main';
@@ -72,7 +71,6 @@ class App extends Component {
           sortBy={sortBy}
           tagFilters={tagFilters}
         />
-        <Testimonial />
       </div>
     );
   }
