@@ -1,7 +1,7 @@
 [
   {
     "name": "JGuiraud/projet_siteMaraichage",
-    "icon": "fa-users",
+    "icon": "fa-shopping-basket",
     "tags": ["vegetables", "local markets"],
     "status": "prod"
   }
