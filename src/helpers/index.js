@@ -1,4 +1,5 @@
 export function formatRepoTitle(repoName) {
+  console.log(repoName);
   const lowCaseWords = ['for', 'in', 'at', 'to', 'and', 'on', 'by'];
 
   const words = repoName.split('-');

@@ -130,7 +130,7 @@ function getFileUrl(body, configFile) {
 
 function getContributorsURL(body) {
   const repo = body.repository.name;
-  return `https://api.github.com/repos/freecodecamp/${repo}/contributors`;
+  return `https://api.github.com/repos/${repo}/contributors`;
 }
 
 function getRepoURL(body) {
@@ -186,7 +186,7 @@ function buildPage(repoConfig, contributors) {
               ${liveDemo
                 ? `<a href="${liveDemo}" target="_blank">
                 <button>
-                  Live Demo 
+                  Live Demo
                   <i class="fa fa-cube" aria-hidden="true"></i>
                 </button></a>`
                 : ''}
@@ -228,7 +228,7 @@ function base64EncodeString(string) {
   Pushing to GitHub Repo
 */
 function pushFileToRepo(webPage, repo) {
-  const fileURL = `https://api.github.com/repos/freecodecamp/open-source-for-good-directory/contents/docs/${repo}/index.html`;
+  const fileURL = `https://api.github.com/repos/ldevernay/open-source-for-good-directory/contents/docs/${repo}/index.html`;
   const options = {
     headers: {
       'User-Agent': 'osfg-request'

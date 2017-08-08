@@ -40,7 +40,7 @@ class App extends Component {
 
   getRepoList() {
     const repoListUrl =
-      'https://raw.githubusercontent.com/freeCodeCamp/open-source-for-good-directory/master/repo-list.json';
+      'https://raw.githubusercontent.com/ldevernay/open-source-for-good-directory/master/repo-list.json';
     return fetch(repoListUrl).then(res => res.json());
   }
 

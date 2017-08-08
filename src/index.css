@@ -29,7 +29,7 @@ body {
   padding: 0 15px 0 35px;
 
   color: #fff;
-  background-color: #006400;
+  background-color: #D51C21;
 
   align-items: center;
 }
@@ -85,7 +85,7 @@ body {
 }
 
 .header-links > li > a:hover {
-  color: #006400;
+  color: #D51C21;
   background-color: #eee;
 }
 
@@ -218,7 +218,7 @@ body {
 }
 
 .search-input:focus {
-  border-color: #006400;
+  border-color: #D51C21;
   box-shadow: 0 0 2px rgba(2, 184, 117, 0.4);
 }
 
@@ -230,8 +230,8 @@ body {
   width: 100%;
 }
 
-/* 
-  Tab Nav 
+/*
+  Tab Nav
 */
 .list-top {
   display: flex;
@@ -354,7 +354,7 @@ body {
 
   text-decoration: none;
 
-  color: #006400;
+  color: #D51C21;
 }
 
 .project-divider {
@@ -403,7 +403,7 @@ body {
   padding-right: 15px;
   padding-bottom: 0;
 
-  color: #006400;
+  color: #D51C21;
 
   align-items: flex-end;
   justify-content: flex-end;
@@ -437,7 +437,7 @@ body {
 }
 
 .signup-input:focus {
-  border-color: #006400;
+  border-color: #D51C21;
   box-shadow: 0 0 2px rgba(2, 184, 117, 0.4);
 }
 

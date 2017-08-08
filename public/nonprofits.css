@@ -22,7 +22,7 @@ body {
 
   border-width: 1em 0 0 0;
   border-style: solid;
-  border-color: #006400;
+  border-color: #D51C21;
 
   align-items: center;
   justify-content: center;
@@ -68,9 +68,9 @@ body {
   color: #fff;
   border-width: 1px;
   border-style: solid;
-  border-color: #006400;
+  border-color: #D51C21;
   border-radius: 8px 8px 0 0;
-  background-color: #006400;
+  background-color: #D51C21;
 }
 
 .content-container h1 {
@@ -252,4 +252,3 @@ button:hover {
     padding: 10px;
   }
 }
-

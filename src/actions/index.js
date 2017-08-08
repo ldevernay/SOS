@@ -99,7 +99,7 @@ export function fetchGithubData(repo) {
         Accept: 'application/vnd.github.mercy-preview+json'
       })
     };
-    return fetch(`https://api.github.com/repos/freecodecamp/${repo}`, options)
+    return fetch(`https://api.github.com/repos/${repo}`, options)
       .then(res => res.json())
       .then(data => {
         const title = formatRepoTitle(data.name);
