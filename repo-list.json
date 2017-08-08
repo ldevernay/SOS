@@ -4,5 +4,11 @@
     "icon": "fa-shopping-basket",
     "tags": ["vegetables", "local markets"],
     "status": "prod"
+  },
+  {
+    "name": "ddiez31/Office-Tourisme",
+    "icon": "fa-map-marker ",
+    "tags": ["tourism", "photo", "interactive map"],
+    "status": "prod"
   }
 ]
