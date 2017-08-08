@@ -50,6 +50,13 @@ For Windows users wanting to use the script, you'll probably need the [Linux Sub
 
 This directory is built using [Create React App](https://github.com/facebookincubator/create-react-app), so you can look for more info there if you run into trouble.
 
+### Warning
+To successfully deploy on heroku, modify package.json :    
+"build": "react-scripts build"      
+
+Don't forget to check this page :    
+https://blog.heroku.com/deploying-react-with-zero-configuration
+
 
 ### License
 
