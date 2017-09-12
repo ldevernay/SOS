@@ -7,8 +7,14 @@
   },
   {
     "name": "ddiez31/Office-Tourisme",
-    "icon": "fa-map-marker ",
+    "icon": "fa-map-marker",
     "tags": ["tourism", "photo", "interactive map"],
+    "status": "prod"
+  },
+  {
+    "name": "JGuiraud/SeriousGame-FRMJC",
+    "icon": "fa-compass",
+    "tags": ["serious game", "SVE", "game"],
     "status": "prod"
   }
 ]
