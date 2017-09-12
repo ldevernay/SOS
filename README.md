@@ -2,6 +2,24 @@
 
 A directory based on freeCodeCamp's Open Source for Good Apps - Solutions for Nonprofits.
 
+## Adding a project ("for dummies" version)
+1. Add your projet to repo-list.json :
+* "name": "<github user name>/<github project name>",
+* "icon": "<font-awesome icon name>",
+* "tags": ["<tag>"],
+* "status": "prod"
+
+2. Copy an existing project folder in docs, rename it <github project name>.
+Update index.html with your project data.
+
+3. Run ./.setup-symlinks.sh
+
+4. Commit on github
+
+5. npm start
+
+6. If it works, commit on heroku.
+
 ## Instructions for adding a Non-Profit Project
 
 There are two steps to add an Open Source Project to the directory:
