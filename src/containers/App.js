@@ -38,6 +38,7 @@ class App extends Component {
   }
 
   getRepoList() {
+    //TODO : fetch repoList depending on environment
     const repoListUrl =
       'https://raw.githubusercontent.com/ldevernay/sos/master/repo-list.json';
     return fetch(repoListUrl).then(res => res.json());
