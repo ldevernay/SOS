@@ -16,5 +16,11 @@
     "icon": "fa-compass",
     "tags": ["serious game", "SVE", "game"],
     "status": "prod"
+  },
+  {
+    "name": "xLeDocteurx/REACT---Black-Beat",
+    "icon": "fa-music",
+    "tags": ["music", "MAO", "tool"],
+    "status": "dev"
   }
 ]
